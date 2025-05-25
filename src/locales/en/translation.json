@@ -1,0 +1,18 @@
+{
+    "menu": {
+      "news": "News",
+      "about": "About",
+      "contact": "Contact",
+      "products": "Products & Services"
+    },
+    "header": "Company Logo",
+    "footer": "Brief contact info, copyright info",
+    "tagCloud": "Tag Cloud",
+    "banners": "Banners, graphics info",
+    "newsTitle": "Great news.",
+    "newsText": "It's already warm!",
+    "aboutTitle": "Southern Federal University",
+    "contactPhone": "+7 908 517 50 43",
+    "productsTitle": "Products & Services",
+    "download": "Download"
+  }
