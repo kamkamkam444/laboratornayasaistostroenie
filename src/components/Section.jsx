@@ -9,15 +9,11 @@ function Section() {
     <section>
       <nav className="menu">
         <NavLink to="/news">{t('menu.news')}</NavLink>
-        <NavLink to="/about">{t('menu.about')}</NavLink>
-        <NavLink to="/contact">{t('menu.contact')}</NavLink>
         <NavLink to="/services">{t('menu.services')}</NavLink>
         <NavLink to="/tours">{t('menu.tours')}</NavLink>
+        <NavLink to="/about">{t('menu.about')}</NavLink>
+        <NavLink to="/contact">{t('menu.contact')}</NavLink>
       </nav>
-      <div>
-        <div className="banners">{t('banners')}</div>
-        <LanguageSwitcher />
-      </div>
     </section>
   );
 }

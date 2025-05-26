@@ -7,6 +7,11 @@ function Services() {
 
   const services = [
     {
+      id: 'tours',
+      titleKey: 'services.tours.title',
+      descriptionKey: 'services.tours.description'
+    },
+    {
       id: 'visa',
       titleKey: 'services.visa.title',
       descriptionKey: 'services.visa.description'
@@ -25,6 +30,11 @@ function Services() {
       id: 'excursions',
       titleKey: 'services.excursions.title',
       descriptionKey: 'services.excursions.description'
+    },
+    {
+      id: 'hotels',
+      titleKey: 'services.hotels.title',
+      descriptionKey: 'services.hotels.description'
     }
   ];
 
