@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import vkIcon from '../images/VK.png'; // Assuming VK.png is in src/images
-import telegramIcon from '../images/Telegram.png'; // Assuming Telegram.png is in src/images
-import dzenIcon from '../images/Dzen.png'; // Assuming Dzen.png is in src/images
-import odnoklassnikiIcon from '../images/Odnoklassniki.png'; // Assuming Odnoklassniki.png is in src/images
+import vkIcon from '../assets/VK.png';
+import telegramIcon from '../assets/Telegram.png';
+import dzenIcon from '../assets/Dzen.png';
+import odnoklassnikiIcon from '../assets/Odnoklassniki.png';
 
 function Aside() {
   const { t } = useTranslation();

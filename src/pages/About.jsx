@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
-import logoPng from '../images/logo.png'; // Assuming logo.png is in src/images
+import logoPng from '../assets/logo.png'; // Assuming logo.png is in src/images
 import BookingButton from '../components/BookingButton';
-import './About.css';
+import '../styles/About.css';
 
 function About() {
   const { t } = useTranslation(); // Use the hook

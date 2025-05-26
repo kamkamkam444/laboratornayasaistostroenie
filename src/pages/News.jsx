@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
+import '../styles/News.css';
 
 // Import images
-import marriedImage from '../images/married.jpg'; // Assuming married.jpg is in src/images
-import cullinanBelekImage from '../images/Cullinan_Belek.jpg'; // Assuming Cullinan_Belek.jpg is in src/images
-import parkHotelImage from '../images/Divnoe.jpg'; // Assuming Divnoe.jpg is in src/images
+import marriedImage from '../assets/married.jpg'; // Assuming married.jpg is in src/assets
+import cullinanBelekImage from '../assets/Cullinan_Belek.jpg'; // Assuming Cullinan_Belek.jpg is in src/assets
+import parkHotelImage from '../assets/Divnoe.jpg'; // Assuming Divnoe.jpg is in src/assets
 
 // Define news data
 export const newsItems = [

@@ -4,12 +4,12 @@ import { useTranslation } from 'react-i18next';
 import '../styles/tours.css';
 
 // Import images
-import izmirImage from '../images/Izmir.jpeg';
-import stambulImage from '../images/Stambul.png';
-import antaliaImage from '../images/Antalia.jpg';
-import belekImage from '../images/Belek.jpg';
-import bodrumImage from '../images/Bodrum.jpg';
-import divnoeImage from '../images/Divnoe.jpg';
+import izmirImage from '../assets/Izmir.jpeg';
+import stambulImage from '../assets/Stambul.png';
+import antaliaImage from '../assets/Antalia.jpg';
+import belekImage from '../assets/Belek.jpg';
+import bodrumImage from '../assets/Bodrum.jpg';
+import divnoeImage from '../assets/Divnoe.jpg';
 
 function Tours() {
   const { t } = useTranslation();

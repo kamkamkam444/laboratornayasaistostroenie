@@ -2,12 +2,12 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import BookingButton from '../components/BookingButton';
-import './News.css';
+import '../styles/NewsDetail.css';
 
 // Import images
-import marriedImage from '../images/married.jpg';
-import cullinanBelekImage from '../images/Cullinan_Belek.jpg';
-import parkHotelImage from '../images/Divnoe.jpg';
+import marriedImage from '../assets/married.jpg';
+import cullinanBelekImage from '../assets/Cullinan_Belek.jpg';
+import parkHotelImage from '../assets/Divnoe.jpg';
 
 const imageMap = {
   'married': marriedImage,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import './BookingButton.css';
+import '../styles/BookingButton.css';
 
 function BookingButton() {
   const { t } = useTranslation();
