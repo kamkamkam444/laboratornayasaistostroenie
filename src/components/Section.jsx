@@ -13,6 +13,7 @@ function Section() {
         <NavLink to="/tours">{t('menu.tours')}</NavLink>
         <NavLink to="/about">{t('menu.about')}</NavLink>
         <NavLink to="/contact">{t('menu.contact')}</NavLink>
+        <LanguageSwitcher />
       </nav>
     </section>
   );

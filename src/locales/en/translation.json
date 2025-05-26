@@ -85,6 +85,10 @@
     },
     "services": {
       "title": "Our Services",
+      "tours": {
+        "title": "Organising tours",
+        "description": "Ready to go, individual and group tours"
+      },
       "visa": {
         "title": "Visa Support",
         "description": "Assistance with visa applications for Turkey and other countries"
@@ -100,11 +104,15 @@
       "excursions": {
         "title": "Excursions",
         "description": "Organization of historical and cultural tours"
+      },
+      "hotels": {
+        "title": "Booking your living space",
+        "description": "Hotels, appartaments, villas. Campings, glampings and etc."
       }
     },
     "tours": {
       "title": "Our Tours",
-      "readMore": "Read More",
+      "readMore": "Read More →",
       "izmir": {
         "title": "Izmir",
         "previewText": "Cultural capital of the Aegean coast",
