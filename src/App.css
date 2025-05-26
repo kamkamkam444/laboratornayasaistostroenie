@@ -11,7 +11,7 @@ body, html, #root, .container {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #fff;
+  background: #f0f0f0;
 }
 
 .container {
@@ -21,11 +21,10 @@ body, html, #root, .container {
 }
 
 header {
-  background: #2ecc40;
-  color: #fff;
+  background: #ffffff;
+  color: #000;
   display: flex;
   align-items: center;
-  justify-content: center;
   height: var(--header-height);
   min-height: 50px;
   font-size: 2em;
@@ -38,7 +37,7 @@ header {
 }
 
 section {
-  background: gold;
+  background: #94d6ff;
   width: var(--section-width);
   min-width: 180px;
   display: flex;
@@ -48,8 +47,8 @@ section {
 }
 
 .article {
-  background: #3498db;
-  color: #fff;
+  background: #ffffff;
+  color: #000;
   width: var(--article-width);
   min-width: 300px;
   padding: 2em;
@@ -57,7 +56,7 @@ section {
 }
 
 aside {
-  background: darkturquoise;
+  background: #94d6ff;
   width: var(--aside-width);
   min-width: 180px;
   display: flex;
@@ -67,7 +66,7 @@ aside {
 }
 
 footer {
-  background: #e74c3c;
+  background: #0536cb;
   color: #fff;
   text-align: center;
   height: var(--footer-height);
@@ -92,7 +91,7 @@ footer {
 }
 
 .menu a.active, .menu a:hover {
-  color: #e74c3c;
+  color: #ffffff;
 }
 
 .banners, .tag-cloud {
@@ -100,8 +99,39 @@ footer {
   border-radius: 8px;
   padding: 0.5em;
   margin-top: 1em;
-  text-align: center;
   color: #000;
+}
+
+.banners {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+
+.banners h3 {
+  margin: 0;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icons-container a img {
+  display: block;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag-cloud p {
+  margin: 2px 0;
 }
 
 .language-switcher {
@@ -112,9 +142,9 @@ footer {
 }
 
 .language-switcher button {
-  background: #fff;
-  border: 1px solid #2ecc40;
-  color: #2ecc40;
+  background: #d4f0ff;
+  border: 1px solid #0536cb;
+  color: #0536cb;
   padding: 0.2em 0.8em;
   border-radius: 4px;
   cursor: pointer;
@@ -122,7 +152,7 @@ footer {
 }
 
 .language-switcher button.active {
-  background: #2ecc40;
+  background: #0536cb;
   color: #fff;
 }
 
@@ -140,7 +170,295 @@ footer {
     justify-content: space-between;
     padding: 0.5em;
   }
+  section {
+    background: #94d6ff;
+  }
   .article {
-    padding: 1em;
+    background: #ffffff;
+  }
+  aside {
+    background: #94d6ff;
+    flex-direction: column;
+  }
+  .banners {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+  .social-icons-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--header-height);
+  min-height: 50px;
+  background: #ffffff;
+}
+
+.header-logo-section {
+  display: none;
+}
+
+.header- wykonali-section {
+  display: none;
+}
+
+.header-centered-logo {
+  max-height: 90%;
+  width: auto;
+}
+
+/* Styling for the About page */
+.about-page-content {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.about-text-section {
+  flex: 2;
+}
+
+.about-text-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.about-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading {
+  color: #cc006d;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.about-page-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-book-button {
+  background-color: #cc006d;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.about-book-button:hover {
+  background-color: #e0338b;
+}
+
+/* Responsive adjustments for the About page */
+@media (max-width: 768px) {
+    .about-page-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .about-text-section,
+    .about-image-section {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-image-section img {
+        max-width: 80%;
+    }
+
+    .about-text-section p {
+        font-size: 1em;
+    }
+
+    .about-heading {
+        font-size: 1.8em;
+    }
+
+    .about-book-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
+
+/* Styling for the News page (Grid Layout) */
+.news-grid-container {
+    padding: 1em; /* Add some padding around the grid */
+}
+
+.news-page-title {
+    color: #cc006d; /* Heading color from design */
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.news-grid {
+    display: grid; /* Enable CSS Grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns: min 250px, max 1fr */
+    gap: 20px; /* Space between grid items */
+}
+
+.news-item-preview {
+    display: flex; /* Use flexbox for content within the card */
+    flex-direction: column; /* Stack content vertically */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing parts of the image */
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.2s ease-in-out; /* Add hover effect */
+    background-color: #fff; /* White background for cards */
+}
+
+.news-item-preview:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.news-preview-image {
+    width: 100%; /* Image takes full width of the card */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Cover the area without distorting aspect ratio */
+}
+
+.news-preview-content {
+    padding: 1em; /* Padding inside the card content area */
+    display: flex; /* Use flexbox for content within preview */
+    flex-direction: column; /* Stack content vertically */
+    flex-grow: 1; /* Allow content area to grow */
+}
+
+.news-preview-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    color: #0536cb; /* Dark blue color for preview titles */
+}
+
+.news-preview-content p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    flex-grow: 1; /* Allow paragraph to grow */
+}
+
+.read-more {
+    align-self: flex-end; /* Align to the bottom right */
+    color: #cc006d; /* Pink color for read more link */
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* Remove previous news item styling */
+.news-page-content .news-item {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.news-page-content .news-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.news-page-content .news-item h2 {
+    color: inherit;
+}
+
+.news-page-content .news-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.news-page-content .news-item p {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+.news-page-content .news-item p:last-child {
+    margin-bottom: 0;
+}
+
+.news-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: none;
+}
+
+/* Styling for news detail page */
+.news-detail-container {
+    padding: 1em; /* Add padding to detail page content */
+}
+
+.news-detail-container .news-detail-image {
+    max-width: 100%; /* Ensure detail images are responsive */
+    height: auto;
+    display: block;
+    margin: 1em 0; /* Add space around the image */
+}
+
+.news-detail-container h2 {
+    color: #0536cb; /* Dark blue color for detail heading */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.news-detail-container p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.news-detail-container a {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #cc006d;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+/* Responsive adjustments for News Grid */
+@media (max-width: 900px) {
+    .news-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns for smaller tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .news-grid {
+        grid-template-columns: 1fr; /* Stack items on very small screens */
   }
 }

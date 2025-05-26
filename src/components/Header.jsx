@@ -1,11 +1,10 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import logoFull from '../images/logo_full.png';
 
 function Header() {
-  const { t } = useTranslation();
   return (
-    <header>
-      {t('header')}
+    <header className="app-header">
+      <img src={logoFull} className="header-centered-logo" alt="Full logo" />
     </header>
   );
 }

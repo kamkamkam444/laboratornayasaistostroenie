@@ -1,18 +1,224 @@
 {
     "menu": {
       "news": "News",
+      "services": "Services",
+      "tours": "Tours",
       "about": "About",
       "contact": "Contact",
       "products": "Products & Services"
     },
-    "header": "Company Logo",
-    "footer": "Brief contact info, copyright info",
+    "header": {
+      "news": "News",
+      "services": "Services",
+      "tours": "Tours",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "footer": {
+      "contactInfo": "+7 (908) 517-50-43, Taganrog",
+      "copyright": "© 2024 Kaleidoscope. All rights reserved."
+    },
     "tagCloud": "Tag Cloud",
     "banners": "Banners, graphics info",
     "newsTitle": "Great news.",
     "newsText": "It's already warm!",
-    "aboutTitle": "Southern Federal University",
-    "contactPhone": "+7 908 517 50 43",
     "productsTitle": "Products & Services",
-    "download": "Download"
+    "download": "Download",
+    "aside": {
+      "authorsHeading": "Authors:",
+      "author1": "Nosko Liliia Aleksandrovna",
+      "author2": "Narenkova Renata Evgenievna",
+      "author3": "Ochirova Iliana Vladislavovna",
+      "author4": "Krakhmaleva Aleksandra Yurievna",
+      "group": "(group 1)",
+      "socialMediaHeading": "Follow us:"
+    },
+    "aboutPage": {
+      "heading": "About Us",
+      "paragraph1": "Kaleidoscope Travel Agency specializes in creating unforgettable travel experiences for its clients.",
+      "paragraph2": "Creating the perfect vacation, understanding needs, fulfilling desires is the priority of our specialists. Book your trip today and immerse yourself in a world of unforgettable impressions!",
+      "button": "Book a tour"
+    },
+    "news": {
+      "pageTitle": "News",
+      "readMore": "Read More →",
+      "married": {
+        "title": "Special offers for newlyweds",
+        "previewText": "Compliments from hotels in Mauritius",
+        "fullContent": {
+          "heading": "Special offers for newlyweds",
+          "paragraph1": "Just got married? Mauritius honeymoon: your love deserves paradise conditions! Below is a list of hotels and bonuses for romance.",
+          "conditionsHeading": "Promotion conditions:",
+          "conditions": "Destination: Mauritius<br/>Departure cities: All<br/>Booking dates: 16.05.2025 – 31.12.2025<br/>Stay dates: 16.05.2025 – 31.12.2025",
+          "notesHeading": "Notes:",
+          "notes": "The tour operator reserves the right to terminate the promotion early without additional notice.",
+          "bookingLink": "Book Now"
+        }
+      },
+      "cullinanBelek": {
+        "title": "Benefit on business class flight for Cullinan Belek 5* guests",
+        "previewText": "All-inclusive hotel stay",
+        "fullContent": {
+          "heading": "Benefit on business class flight for Cullinan Belek 5* guests",
+          "paragraph1": "Quality service, comfortable flight, and a luxurious stay await you at Cullinan Belek 5* hotel.",
+          "paragraph2": "When booking certain room categories at Cullinan Belek 5* hotel, guests receive discounts.",
+          "conditionsHeading": "Promotion conditions",
+          "conditions": "Destination: Turkey<br/>Departure cities: Moscow, Saint Petersburg<br/>Booking dates: 12.05.2025 – 31.05.2025",
+          "dates": "Stay dates: 01.06.2025 – 31.10.2025",
+          "bookingLink": "Book Now"
+        }
+      },
+      "parkHotel": {
+        "title": "Special offer from park-hotel Sosny. Divnoe 2*",
+        "previewText": "Special prices for holidays in Russia",
+        "fullContent": {
+          "heading": "Special offer from park-hotel Sosny. Divnoe 2*",
+          "paragraph1": "Park-hotel Ozero Divnoe 2* is waiting for guests. Go on vacation with special conditions.",
+          "paragraph2": "When booking a rate with breakfast and full board, the hotel provides a 10% discount.",
+          "conditionsHeading": "Promotion conditions",
+          "conditions": "Destination: Russia, Sochi<br/>Departure cities: All<br/>Booking dates: 08.05.2025 – 30.06.2025<br/>Stay dates: 08.05.2025 – 30.06.2025",
+          "notesHeading": "Note:",
+          "notes": "The discount is included in the final tour price on the website.",
+          "bookingLink": "Book Now"
+        }
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "visa": {
+        "title": "Visa Support",
+        "description": "Assistance with visa applications for Turkey and other countries"
+      },
+      "insurance": {
+        "title": "Insurance",
+        "description": "Travel insurance policies arrangement"
+      },
+      "transfers": {
+        "title": "Transfers",
+        "description": "Airport and intercity transfer organization"
+      },
+      "excursions": {
+        "title": "Excursions",
+        "description": "Organization of historical and cultural tours"
+      }
+    },
+    "tours": {
+      "title": "Our Tours",
+      "readMore": "Read More",
+      "izmir": {
+        "title": "Izmir",
+        "previewText": "Cultural capital of the Aegean coast",
+        "fullContent": {
+          "heading": "Izmir Tour",
+          "paragraph1": "Izmir is Turkey's third-largest city, located on the Aegean coast. The city is famous for its rich history, cultural heritage, and modern infrastructure.",
+          "paragraph2": "During the tour, you will visit the ancient city of Ephesus, Kadifekale Castle, Kemeraltı Bazaar, and other attractions.",
+          "conditionsHeading": "Tour Conditions",
+          "conditions": "• Duration: 7 days<br>• Accommodation in a 4-star hotel<br>• Breakfast included<br>• Airport transfer",
+          "dates": "Tour dates: May - October",
+          "notesHeading": "Additional Information",
+          "notes": "• Comfortable shoes recommended<br>• Don't forget your swimwear<br>• Additional excursions available",
+          "bookingLink": "Book Now"
+        }
+      },
+      "stambul": {
+        "title": "Istanbul",
+        "previewText": "City at the crossroads of Europe and Asia",
+        "fullContent": {
+          "heading": "Istanbul Tour",
+          "paragraph1": "Istanbul is a unique city connecting Europe and Asia. Here you'll find numerous historical monuments, magnificent mosques, and modern shopping centers.",
+          "paragraph2": "The tour program includes visits to Hagia Sophia, Blue Mosque, Topkapi Palace, and other iconic places.",
+          "conditionsHeading": "Tour Conditions",
+          "conditions": "• Duration: 5 days<br>• Accommodation in the city center<br>• Breakfast included<br>• Airport transfer",
+          "dates": "Tour dates: Year-round",
+          "notesHeading": "Additional Information",
+          "notes": "• Comfortable shoes recommended<br>• Appropriate clothing required for mosque visits<br>• Bosphorus cruise available",
+          "bookingLink": "Book Now"
+        }
+      },
+      "antalia": {
+        "title": "Antalya",
+        "previewText": "Pearl of the Mediterranean",
+        "fullContent": {
+          "heading": "Antalya Tour",
+          "paragraph1": "Antalya is a popular Mediterranean resort known for its beaches, historic center, and modern hotels.",
+          "paragraph2": "During the tour, you will visit the Old Town Kaleiçi, Düden Waterfall, ancient city of Perge, and other attractions.",
+          "conditionsHeading": "Tour Conditions",
+          "conditions": "• Duration: 7 days<br>• Accommodation in a 5-star hotel<br>• Half board<br>• Airport transfer",
+          "dates": "Tour dates: April - November",
+          "notesHeading": "Additional Information",
+          "notes": "• Don't forget your swimwear<br>• Bring sunscreen<br>• Diving available",
+          "bookingLink": "Book Now"
+        }
+      },
+      "belek": {
+        "title": "Belek",
+        "previewText": "World-class golf resort",
+        "fullContent": {
+          "heading": "Belek Tour",
+          "paragraph1": "Belek is a prestigious resort known for its world-class golf courses, luxury hotels, and beautiful beaches.",
+          "paragraph2": "The tour program includes golf, visits to the ancient city of Aspendos, and beach relaxation.",
+          "conditionsHeading": "Tour Conditions",
+          "conditions": "• Duration: 7 days<br>• Accommodation in a 5-star hotel<br>• Half board<br>• Airport transfer",
+          "dates": "Tour dates: March - November",
+          "notesHeading": "Additional Information",
+          "notes": "• Golf equipment required<br>• Don't forget your swimwear<br>• Spa treatments available",
+          "bookingLink": "Book Now"
+        }
+      },
+      "bodrum": {
+        "title": "Bodrum",
+        "previewText": "Turkish Riviera",
+        "fullContent": {
+          "heading": "Bodrum Tour",
+          "paragraph1": "Bodrum is an elegant resort on the Aegean Sea, known for its nightlife, yachts, and historical attractions.",
+          "paragraph2": "During the tour, you will visit St. Peter's Castle, ancient theater, Mausoleum at Halicarnassus, and other places.",
+          "conditionsHeading": "Tour Conditions",
+          "conditions": "• Duration: 7 days<br>• Accommodation in a 4-star hotel<br>• Breakfast included<br>• Airport transfer",
+          "dates": "Tour dates: May - October",
+          "notesHeading": "Additional Information",
+          "notes": "• Don't forget your swimwear<br>• Bring sunscreen<br>• Yacht cruise available",
+          "bookingLink": "Book Now"
+        }
+      },
+      "divnoe": {
+        "title": "Divnoe",
+        "previewText": "Seaside vacation",
+        "fullContent": {
+          "heading": "Divnoe Tour",
+          "paragraph1": "Divnoe is a cozy resort village on the Black Sea coast, perfect for a quiet family vacation.",
+          "paragraph2": "The tour program includes beach relaxation, visits to local attractions, and local cuisine tasting.",
+          "conditionsHeading": "Tour Conditions",
+          "conditions": "• Duration: 7 days<br>• Accommodation in a guest house<br>• Breakfast included<br>• Airport transfer",
+          "dates": "Tour dates: June - September",
+          "notesHeading": "Additional Information",
+          "notes": "• Don't forget your swimwear<br>• Bring sunscreen<br>• Fishing available",
+          "bookingLink": "Book Now"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "8(863)445-67-39",
+      "email": "kaleidoskop@mail.ru",
+      "address": "344068, Rostov-on-Don, Larina St., 45, bld. 2, office 54",
+      "weekdays": "Mon-Fri 10:00-20:00",
+      "weekend": "Sat-Sun - closed"
+    },
+    "common": {
+      "bookNow": "Book Now"
+    },
+    "booking": {
+      "title": "Booking Form",
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "email": "Email",
+      "country": "Country of Visit",
+      "dates": "Travel Dates",
+      "comment": "Comment",
+      "submit": "Submit Booking",
+      "selectCountry": "Select country",
+      "selectDates": "Select travel dates",
+      "startDate": "Check-in Date",
+      "endDate": "Check-out Date"
+    }
   }

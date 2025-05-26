@@ -1,0 +1,31 @@
+.contact-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  color: #FF69B4;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact-phone,
+.contact-email,
+.contact-address {
+  margin-bottom: 1rem;
+}
+
+.contact-hours {
+  margin-top: 2rem;
+}
+
+.contact-hours p {
+  margin-bottom: 0.5rem;
+} 

@@ -1,0 +1,48 @@
+/* Анимация появления страницы */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+  position: absolute;
+  width: 100%;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  position: absolute;
+  width: 100%;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+  position: absolute;
+  width: 100%;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  position: absolute;
+  width: 100%;
+}
+
+/* Базовые стили для контейнера страницы */
+.article {
+  position: relative;
+  min-height: 400px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

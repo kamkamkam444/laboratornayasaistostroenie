@@ -5,7 +5,7 @@ function Footer() {
   const { t } = useTranslation();
   return (
     <footer>
-      {t('footer')}
+      <p>{t('footer.contactInfo')} | {t('footer.copyright')}</p>
     </footer>
   );
 }

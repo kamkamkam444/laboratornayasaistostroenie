@@ -1,0 +1,24 @@
+.about-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-page h1 {
+  color: #cc006d;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.booking-button-container {
+  margin-top: 2rem;
+  text-align: center;
+} 

@@ -1,0 +1,109 @@
+.booking-form-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  color: #cc006d !important;
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select,
+.date-picker {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus,
+.date-picker:focus {
+  outline: none;
+  border-color: #cc006d;
+}
+
+.form-group select {
+  background-color: white;
+  cursor: pointer;
+}
+
+.date-picker {
+  cursor: pointer;
+}
+
+/* Стили для календаря */
+.react-datepicker {
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.react-datepicker__header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-range {
+  background-color: #cc006d !important;
+  color: white !important;
+}
+
+.react-datepicker__day--in-selecting-range {
+  background-color: rgba(204, 0, 109, 0.2) !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: rgba(204, 0, 109, 0.1) !important;
+}
+
+.submit-btn {
+  background-color: #cc006d !important;
+  margin-top: 1rem !important;
+}
+
+.submit-btn:hover {
+  background-color: #990052 !important;
+}
+
+/* Стили для календаря */
+.MuiDateRangePickerDay-root.Mui-selected {
+  background-color: #cc006d !important;
+  color: white !important;
+}
+
+.MuiDateRangePickerDay-root.Mui-inRange {
+  background-color: rgba(204, 0, 109, 0.2) !important;
+}
+
+.MuiDateRangePickerDay-root:hover {
+  background-color: rgba(204, 0, 109, 0.1) !important;
+} 
