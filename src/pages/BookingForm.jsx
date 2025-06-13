@@ -17,6 +17,7 @@ function BookingForm() {
     endDate: null,
     comment: ''
   });
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false);
 
   const countries = [
     'Mauritius',
@@ -55,6 +56,21 @@ function BookingForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
+    setShowSuccessPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowSuccessPopup(false);
+    // Reset form
+    setFormData({
+      fullName: '',
+      phone: '',
+      email: '',
+      country: '',
+      startDate: null,
+      endDate: null,
+      comment: ''
+    });
   };
 
   return (
@@ -115,7 +131,7 @@ function BookingForm() {
             ))}
           </TextField>
 
-          <Box sx={{ display: 'flex', gap: 2, mt: 2, mb: 2 }}>
+          <Box sx={{ display: 'flex', gap: 2, mt: 2, mb: 2, flexWrap: 'wrap' }}>
             <DatePicker
               label={t('booking.startDate')}
               value={formData.startDate}
@@ -153,6 +169,16 @@ function BookingForm() {
             {t('booking.submit')}
           </Button>
         </form>
+
+        {showSuccessPopup && (
+          <>
+            <div className="success-popup-overlay" onClick={handleClosePopup} />
+            <div className="success-popup">
+              <h3>Заявка отправлена, спасибо, что доверяете нам!</h3>
+              <button onClick={handleClosePopup}>Закрыть</button>
+            </div>
+          </>
+        )}
       </Box>
     </LocalizationProvider>
   );

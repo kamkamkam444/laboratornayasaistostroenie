@@ -15,6 +15,7 @@ function Aside() {
         <p>{t('aside.author2')}</p>
         <p>{t('aside.author3')}</p>
         <p>{t('aside.author4')}</p>
+        <p>{t('aside.author5')}</p>
         <p>{t('aside.group')}</p>
       </div>
       <div className="banners">
